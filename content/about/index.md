@@ -8,4 +8,4 @@ eleventyNavigation:
 
 Designer and developer. 
 
-More to come.
+More to come!
