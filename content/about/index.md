@@ -4,7 +4,7 @@ eleventyNavigation:
   key: About
   order: 3
 ---
-# About Me
+# About
 
 Designer and developer. 
 
