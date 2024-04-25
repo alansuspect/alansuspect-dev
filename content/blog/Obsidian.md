@@ -1,7 +1,7 @@
 ---
-title: Obsidian 
+title: Obsidian
 description: A post about using Obsidian as a CMS
-date: 2024-04-22
+date: 2024-04-25
 tags:
   - eleventy
   - obsidian
