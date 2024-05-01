@@ -9,7 +9,7 @@ tags:
   - monkey island
 
 ---
-I just read this post by mxbck@front-end.social : https://mxb.dev/blog/the-indieweb-for-everyone/. This is an older one but there are a lot of posts like this popping up and it's exactly how I feel about the internet now. 
+I just read this post by [@mxbck@front-end.social](https://front-end.social/@mxbck): https://mxb.dev/blog/the-indieweb-for-everyone/. This is an older one but there are a lot of posts like this popping up and it's exactly how I feel about the internet now.
 
 What worries me with saying
 > Maybe we need some of that early internet vibe back and be ok with smaller, closer communities.
