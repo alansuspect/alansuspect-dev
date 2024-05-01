@@ -1,7 +1,7 @@
 ---
 title: The old internet
 description: Bringing back the old internet
-date: 2024-04-25
+date: 2024-05-01
 tags:
   - internet
   - social media
