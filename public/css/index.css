@@ -22,30 +22,15 @@
 
 /* Theme colors */
 :root {
-
-	--color-gray-20: #797979;
-	--color-gray-50: #545454;
-	--color-gray-90: #323232;
-	--background-color: #fff;
-	--text-color: #151515;
+	--color-gray-20: #444444;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #FEFAF6;
+	--text-color: #ffffff;
 	--text-color-link: #7ABA78;
 	--text-color-link-active: #4F6F52;
 	--text-color-link-visited: #7ABA78;
-
+	--background-color: #151515;
 	--syntax-tab-size: 2;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--color-gray-20: #444444;
-		--color-gray-50: #C0C0C0;
-		--color-gray-90: #FEFAF6;
-		--text-color: #ffffff;
-		--text-color-link: #7ABA78;
-		--text-color-link-active: #4F6F52;
-		--text-color-link-visited: #7ABA78;
-		--background-color: #151515;
-	}
 }
 
 
@@ -198,18 +183,11 @@ header, footer {
 
 .nav-item a[href] {
 	text-decoration: none;
-	font-weight: 400;
+	font-weight: 300;
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;	
 	border-bottom: 1px solid var(--background-color);	
-}
-
-@media (prefers-color-scheme: dark) {
-	.nav-item a[href] {
-		font-weight: 300;
-
-	}
 }
 
 .nav a[href][aria-current="page"] {
