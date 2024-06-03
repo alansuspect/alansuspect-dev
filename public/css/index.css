@@ -197,7 +197,7 @@ header, footer {
 
 .nav-item a[href] {
 	text-decoration: none;
-	font-weight: 300;
+	font-weight: 400;
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;	
@@ -206,7 +206,7 @@ header, footer {
 
 @media (prefers-color-scheme: dark) {
 	.nav-item a[href] {
-		font-weight: 400;
+		font-weight: 300;
 
 	}
 }
