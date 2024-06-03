@@ -29,7 +29,7 @@
 	--background-color: #fff;
 	--text-color: #151515;
 	--text-color-link: #7ABA78;
-	--text-color-link-active: #7ABA78;
+	--text-color-link-active: #4F6F52;
 	--text-color-link-visited: #7ABA78;
 
 	--syntax-tab-size: 2;
@@ -99,6 +99,7 @@ a[href] {
 a[href]:visited {
 	color: var(--text-color-link-visited);
 }
+
 a[href]:hover,
 a[href]:active {
 	color: var(--text-color-link-active);
@@ -201,6 +202,13 @@ header, footer {
 	letter-spacing: 0.05rem;
 	font-size: 0.8rem;	
 	border-bottom: 1px solid var(--background-color);	
+}
+
+@media (prefers-color-scheme: dark) {
+	.nav-item a[href] {
+		font-weight: 400;
+
+	}
 }
 
 .nav a[href][aria-current="page"] {
