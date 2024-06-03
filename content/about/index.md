@@ -6,6 +6,6 @@ eleventyNavigation:
 ---
 # About
 
-Designer and developer. 
+Freelance web designer and developer: <a href="https://alanquirk.com" target="_blank">alanquirk.com</a>.
 
 More to come!

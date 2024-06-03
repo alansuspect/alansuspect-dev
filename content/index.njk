@@ -6,9 +6,13 @@ eleventyNavigation:
 numberOfLatestPostsToShow: 3
 ---
 
+<div class="home-description">
+	<p>I'm a web developer based in Australia. I build with Wordpress, Shopify and now also Eleventy, sometimes mixing them all together.</p>
+</div>
+
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h3>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h3>
+<h3>Latest Post{% if latestPostsCount != 1 %}s{% endif %}</h3>
 
 {% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
@@ -16,7 +20,7 @@ numberOfLatestPostsToShow: 3
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="/blog/">the archive</a>.</p>
+<p><a href="/blog/">View all {{ postsCount }} post{% if postsCount != 1 %}s{% endif %}</a></p>
 {% endif %}
 
 {# List every content page in the project #}
