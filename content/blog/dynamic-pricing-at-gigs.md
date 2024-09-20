@@ -1,7 +1,7 @@
 ---
 title: Dynamic Pring at gigs
 description: 
-date: 2024-09-18
+date: 2024-09-21
 tags:
   - music
   - live-acts
