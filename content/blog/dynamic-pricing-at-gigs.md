@@ -1,5 +1,5 @@
 ---
-title: Dynamic Pring at gigs
+title: Dynamic Pricing at gigs
 description: 
 date: 2024-09-21
 tags:
