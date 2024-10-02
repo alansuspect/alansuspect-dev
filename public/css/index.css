@@ -1,6 +1,6 @@
 /* Defaults */
 
-@font-face {
+/* @font-face {
 	font-family: "Rubik";
 	src: url("Rubik-VariableFont_wght.woff2") format("woff2 supports variations"),
 		 url("Rubik-VariableFont_wght.woff2") format("woff2-variations");
@@ -14,10 +14,11 @@
 		 url("Rubik-Italic-VariableFont_wght.woff2") format("woff2-variations");
 	font-weight: 100 1000;
   }  
-
+ */
 :root {
-	--font-family: "Rubik", sans-serif;
+	--font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--letter-spacing: 0.005rem;
 }
 
 /* Theme colors */
@@ -29,7 +30,7 @@
 	--text-color-link: #7ABA78;
 	--text-color-link-active: #4F6F52;
 	--text-color-link-visited: #7ABA78;
-	--background-color: #151515;
+	--background-color: #202222;
 	--syntax-tab-size: 2;
 }
 
@@ -46,6 +47,7 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	letter-spacing: var(--letter-spacing);
 }
 html {
 	overflow-y: scroll;
@@ -71,7 +73,6 @@ p:last-child {
 p {
 	line-height: 1.6;
 	margin-bottom: 1.6rem;
-	letter-spacing: 0.02rem;
 }
 
 li {
