@@ -2,8 +2,8 @@
 	"version": "https://jsonfeed.org/version/1.1",
 	"title": "alansuspect.dev",
 	"language": "en",
-	"home_page_url": "https://alansuspect.dev/alansuspect-dev/",
-	"feed_url": "https://alansuspect.dev/alansuspect-dev/feed/feed.json",
+	"home_page_url": "https://alansuspect.dev/",
+	"feed_url": "https://alansuspect.dev/feed/feed.json",
 	"description": "I&#39;m a web developer trying to write about it.",
 	"author": {
 		"name": "Alan",
@@ -11,80 +11,80 @@
 	},
 	"items": [
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/looking-for-a-cms/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/looking-for-a-cms/",
+			"id": "https://alansuspect.dev/blog/looking-for-a-cms/",
+			"url": "https://alansuspect.dev/blog/looking-for-a-cms/",
 			"title": "Looking for a CMS",
 			"content_html": "<p>Is there a flat-file CMS I could point to my Eleventy dev folder that would act as a nice front end to manage the Markdown content?</p>\n<p>I've looked at a few (such as Grav, TinaCMS, Pico CMS, SpinalCMS) but they seem to do their own thing and manage files/site themselves, whereas I'd want Eleventy to handle everything and just have a nice UI instead of dealing with files.</p>\n<p>The idea being when you save a post/page (.md file) it would update the e.g. GitHub repo and trigger the build. Any ideas?</p>\n<p>Bonus points for being open source and also an accommodating free plan, or at least decent upgrade levels that don't go from free to $500 pm for an additional seat.</p>\n<p><a href=\"https://mattrbld.com\">Mattrbld</a> looks good but I'm not sure how mature/stable it is and so does <a href=\"https://pagescms.org/\">PagesCMS</a> if it can do what I'm after. I guess it also depends on hosting and my options there too.</p>\n",
 			"date_published": "2025-01-18T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/dynamic-pricing-at-gigs/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/dynamic-pricing-at-gigs/",
+			"id": "https://alansuspect.dev/blog/dynamic-pricing-at-gigs/",
+			"url": "https://alansuspect.dev/blog/dynamic-pricing-at-gigs/",
 			"title": "Dynamic Pricing at gigs",
 			"content_html": "<p>I was watching the news this morning and they were talking about Green Day and the new 'dynamic pricing' for gig tickets being used, which basically means if more people are trying to book tickets the price will go up.</p>\n<p>It's not just Green Day either, it's the ticket companies pushing the feature.</p>\n<p>It's a horrific capitalism invention and all I can say is people should go check out local bands instead. This is just making nice things available only to the rich.</p>\n<p>My question is, why can't we make these ticket companies pay a tax that goes towards local music/art investment?</p>\n<p>This was done with Netflix; they have to commit to making a certain amount of Aussie content per year. If you're taking money from people to go see major foreign acts, some of that should be reinvested.</p>\n<p>I hate capitalism, it ruins nice things.</p>\n",
 			"date_published": "2024-09-21T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/web-component-thoughts/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/web-component-thoughts/",
+			"id": "https://alansuspect.dev/blog/web-component-thoughts/",
+			"url": "https://alansuspect.dev/blog/web-component-thoughts/",
 			"title": "Web component thoughts",
 			"content_html": "<p>I keep coming back to reading about web components.</p>\n<p>The opportunity to try them out hasn't come up yet but I still don't think I get it. Is it just another way of sneaking JavaScript into a site build? Do they work without JavaScript?</p>\n<p>With all the Eleventy talk about moving to Font Awesome and their Web Awesome stuff I really want to learn it and like it, but I'm coming at it from an HTML/CSS-only standpoint (static sites lend themselves to a lack of JS) and am trying to understand how it carefully adds to a build, instead of taking it over or relying on JS. Or maybe I'm way off.</p>\n<p>For several years now I've used &quot;builders&quot; for some clients, mostly on WordPress, which are a swamp of JavaScript and awful performance. So as I look to simpler project builds in the future I want to factor in nice solutions for things that aren't going to turn into a hassle down the line.</p>\n<p>The idea of browsers supporting it sounds fantastic though. Maybe I'll figure it out one day.</p>\n",
 			"date_published": "2024-09-18T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/Making-games-and-game-decisions/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/Making-games-and-game-decisions/",
+			"id": "https://alansuspect.dev/blog/Making-games-and-game-decisions/",
+			"url": "https://alansuspect.dev/blog/Making-games-and-game-decisions/",
 			"title": "Making games and game decisions",
 			"content_html": "<p>I have had this idea for a computer game for a while now, it's not completely fleshed out but I have a rough storyline down and a few ideas for puzzles.</p>\n<p>What I can't decide on is how to implement it. Issues of time aside, I'm also not a skilled game developer so an easy learning curve would be preferable.</p>\n<p>I like doing pixel art so that would be a nice path to go down, but I probably shouldn't commit to doing too much of it as I'll end up giving up before I get anywhere.</p>\n<p>My first thought is a point-and-click adventure game like LucasArts used to make. When I was a kid I played with GRAC on the Amiga and I can see similar programs exist now, such as Escoria and Popochiu add-ons to Godot.</p>\n<p>I even got sidetracked looking at Godot add-ons and found Cogito. For a brief moment considered a first person puzzler, but have no idea about 3D graphics.</p>\n<p>Going to the far end on the other side I thought about doing an interactive fiction piece, where the story and puzzles would be a lot easier to implement and I could incorporate some static pixel art along the way.</p>\n<p>Lastly I've been trying out some games on the iPad which are kind of a mix of interactive fiction and point and click, in fact they call themselves point and click games but I consider them more <em>first person</em> point and click, for clarity.</p>\n<p>I even found an add-on for Godot called EgoVenture which does this kind of thing. It would mean I can do static graphics (without all the pesky animating characters walking stuff) and keep things as simple or complex as I like. On top of that, I could implement some cool puzzles.</p>\n<p>Oh, and a bonus mention to GBStudio which looks awesome, but not sure it would suit my game style. Maybe for another project.</p>\n<p>Lots of coulds in there! How do other people figure out how to plan a project like this? Do you do a script/plan layout or just get started and figure it out as you go?</p>\n",
 			"date_published": "2024-09-08T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/why-with-all-the-js/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/why-with-all-the-js/",
+			"id": "https://alansuspect.dev/blog/why-with-all-the-js/",
+			"url": "https://alansuspect.dev/blog/why-with-all-the-js/",
 			"title": "Why with all the JavaScript?",
 			"content_html": "<p>I'm not great at JavaScript. Never have, never will, and I'm ok with that. I understand enough and can follow many others' leads to do what I want with it.</p>\n<p>Or, even better, just not use it. I grew up with HTML, then added CSS along the way. That was always enough.</p>\n<p>At one point I had this stomach-dropping feeling that I may need to learn React to keep doing my job. That meant learning React AND JavaScript. No thanks.</p>\n<p>Now I see several articles, posts, and mentions a week about how over-reliance on JS is damaging user experience, how it is creating a pointless situation when things could be much simpler.</p>\n<p>And I'm glad. It wasn't the way things were going after all, just the way some people thought it should and we all got swept up along the way.</p>\n<p>Some of the tools I use in my day-to-day website building activities are very JS-heavy, and it is starting to show. Simple web builders are now bloated to the point they can't perform their basic functions without difficulties (and let's not get started on the shoe-horned AI obsession).</p>\n<p>Now I just need to convince my clients they don't need all the bells and whistles!</p>\n",
 			"date_published": "2024-06-03T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/Having-a-strum/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/Having-a-strum/",
+			"id": "https://alansuspect.dev/blog/Having-a-strum/",
+			"url": "https://alansuspect.dev/blog/Having-a-strum/",
 			"title": "Having a strum",
 			"content_html": "<p>Something happened today.</p>\n<p>I actually picked up a guitar and made up some new music. It wasn't much, just a few riffs but it's been so long. I'm just constantly working and don't put time aside for my activities.</p>\n<p>And it was on bass. I bought a Fender p-bass a long, long time ago and hardly ever play it. I'm a guitarist by trade but it always seemed like a neat thing to have, especially if I want to record anything.</p>\n<p>I also recorded it on my phone as I will very likely forget it, which is pretty cool. I remember when I was young I had a MiniDisc recorder to record demo tracks, and later audio software like Cubase. I used Cubase to record Suspect Package's <a href=\"https://sectionfiverecords.bandcamp.com/album/suspect-package\">first (and only) album</a>.</p>\n<p>But it was nice to just feel free to play something today. Maybe I'll keep doing it. I should keep doing it.</p>\n",
 			"date_published": "2024-05-22T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/gaming/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/gaming/",
+			"id": "https://alansuspect.dev/blog/gaming/",
+			"url": "https://alansuspect.dev/blog/gaming/",
 			"title": "Games for the living room",
 			"content_html": "<p>We've had an old (2021) Dell laptop lying around for a while and I thought turning it into a gaming machine for the living room might be fun.</p>\n<p>Now when I say gaming, I'm not really a gamer. I grew up playing point and click adventures (still the best game format in my opinion) and in the late 00's I had an XBox 360 where I played a lot of Red Dead Redemption. Oh, and I have a WiiU in a box somewhere but it has a UK plug and it seems dangerous to have it plugged in to an adapter all the time.</p>\n<p>I like playing old games. I got my daughter a Miyoo game boy-style handheld for Christmas and under the guise of &quot;testing&quot; to make sure it would be good to go on the big day I also picked one up for myself.</p>\n<p>I've looked into a few options for this Dell laptop (Inspiron 5502 for those who are wondering, whatever that signifies), I'm not a big PC guy - I use a Mac as my daily driver - so removing Windows was a priority. I've played with Linux here and there over the years so that's always an option.</p>\n<p>I first tried Batocera, a convenient living room display-style screen mode for retro gaming but I wasn't able to install it off the USB stick to the drive in the laptop.</p>\n<p>So now I'm trying out ChimeraOS. It bases itself off Steam so I can access games I have on there, as well as retro emulated games.</p>\n<p>I've realised I don't actually have any games in Steam so the homepage is a little lackluster right now (mainly Half Life when it was on a free promo and classic YNAB), but that can be added to.</p>\n<p>I found my old WiiU Pro controller and it connected instantly which I was impressed with. The next step is to get Steam Link working on my iPad so I can play some new point and click games I've been interested in but they're only on PC.</p>\n<p>Now I need to find some time to actually play some games...</p>\n",
 			"date_published": "2024-05-07T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/IndieWeb/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/IndieWeb/",
+			"id": "https://alansuspect.dev/blog/IndieWeb/",
+			"url": "https://alansuspect.dev/blog/IndieWeb/",
 			"title": "The old internet",
 			"content_html": "<p>I just read <a href=\"https://mxb.dev/blog/the-indieweb-for-everyone/\">this post</a> by <a href=\"https://front-end.social/@mxbck\">@mxbck@front-end.social</a>.</p>\n<p>This is an older one but there are a lot of posts like this popping up and it's exactly how I feel about the internet now.</p>\n<p>What worries me with saying</p>\n<blockquote>\n<p>Maybe we need some of that early internet vibe back and be ok with smaller, closer communities.\nis how long will it be until people don't remember the early internet?</p>\n</blockquote>\n<p>I've been building for the web for 25 years (and that's not even the early early days), but a lot of people only know social media like Twitter and Facebook. Do people still tinker?</p>\n<p>I used to mess with my brother's Amiga 500, then it became mine and I messed with the settings, found weird programs I had no idea what they did, made crappy pixel art in Deluxe Paint, played Monkey Island and even had a crack at making my own point-and-click games with <a href=\"https://amiga.abime.net/games/view/grac-graphic-adventure-creator-version-2\">GRAC</a>.</p>\n<p>Do people still do this? I dunno. You can't tinker with Tiktok, or an iPad. Everything is designed for users to use.</p>\n<p>Anyway, I don't know where I'm going with this so I'll wrap it up. Still, when will people forget the old internet? I hope they don't, I hope it sticks around and massive social media platforms disappear.</p>\n",
 			"date_published": "2024-05-01T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/Obsidian/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/Obsidian/",
+			"id": "https://alansuspect.dev/blog/Obsidian/",
+			"url": "https://alansuspect.dev/blog/Obsidian/",
 			"title": "Obsidian",
 			"content_html": "<p>I started using <a href=\"https://obsidian.md/\">Obsidian</a> a few months ago, after first moving to Quillpad from Google Notes when I decided to de-Google. It is a pretty powerful editor and note taker but I hadn't really looked into what it could do until I saw a post on Mastodon about using it to edit posts in Eleventy. Neat!</p>\n<p>This is basically a test post to see if I can use Obsidian as a CMS. Let's see if it works.</p>\n<p><strong>Update: it works!</strong></p>\n",
 			"date_published": "2024-04-25T00:00:00Z"
 		}
 		,
 		{
-			"id": "https://alansuspect.dev/alansuspect-dev/blog/first/",
-			"url": "https://alansuspect.dev/alansuspect-dev/blog/first/",
+			"id": "https://alansuspect.dev/blog/first/",
+			"url": "https://alansuspect.dev/blog/first/",
 			"title": "Let&#39;s Go",
 			"content_html": "<p>I've made this site to post about dev stuff I'm working on, and other fun things.</p>\n<p>It's built using Eleventy which I've been playing around with a lot recently, especially trying to hook up WordPress as a CMS.</p>\n<p>So that's probably what I'll be talking about. Oh and customising a Miyoo Mini Plus V3 with cool ROMs.</p>\n",
 			"date_published": "2024-04-22T00:00:00Z"

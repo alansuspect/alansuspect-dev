@@ -2,282 +2,282 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/first/</loc>
+		<loc>https://alansuspect.dev/blog/first/</loc>
 		<lastmod>2024-04-22</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/Obsidian/</loc>
+		<loc>https://alansuspect.dev/blog/Obsidian/</loc>
 		<lastmod>2024-04-25</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/IndieWeb/</loc>
+		<loc>https://alansuspect.dev/blog/IndieWeb/</loc>
 		<lastmod>2024-05-01</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/gaming/</loc>
+		<loc>https://alansuspect.dev/blog/gaming/</loc>
 		<lastmod>2024-05-07</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/Having-a-strum/</loc>
+		<loc>https://alansuspect.dev/blog/Having-a-strum/</loc>
 		<lastmod>2024-05-22</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/why-with-all-the-js/</loc>
+		<loc>https://alansuspect.dev/blog/why-with-all-the-js/</loc>
 		<lastmod>2024-06-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/Making-games-and-game-decisions/</loc>
+		<loc>https://alansuspect.dev/blog/Making-games-and-game-decisions/</loc>
 		<lastmod>2024-09-08</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/web-component-thoughts/</loc>
+		<loc>https://alansuspect.dev/blog/web-component-thoughts/</loc>
 		<lastmod>2024-09-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/dynamic-pricing-at-gigs/</loc>
+		<loc>https://alansuspect.dev/blog/dynamic-pricing-at-gigs/</loc>
 		<lastmod>2024-09-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/looking-for-a-cms/</loc>
+		<loc>https://alansuspect.dev/blog/looking-for-a-cms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/about/</loc>
+		<loc>https://alansuspect.dev/about/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/blog/</loc>
+		<loc>https://alansuspect.dev/blog/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/</loc>
+		<loc>https://alansuspect.dev/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/</loc>
+		<loc>https://alansuspect.dev/tags/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/music/</loc>
+		<loc>https://alansuspect.dev/tags/music/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/band/</loc>
+		<loc>https://alansuspect.dev/tags/band/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/suspect-package/</loc>
+		<loc>https://alansuspect.dev/tags/suspect-package/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/cubase/</loc>
+		<loc>https://alansuspect.dev/tags/cubase/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/gamedev/</loc>
+		<loc>https://alansuspect.dev/tags/gamedev/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/godot/</loc>
+		<loc>https://alansuspect.dev/tags/godot/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/lucasarts/</loc>
+		<loc>https://alansuspect.dev/tags/lucasarts/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/escoria/</loc>
+		<loc>https://alansuspect.dev/tags/escoria/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/popochiu/</loc>
+		<loc>https://alansuspect.dev/tags/popochiu/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/egoventure/</loc>
+		<loc>https://alansuspect.dev/tags/egoventure/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/cogito/</loc>
+		<loc>https://alansuspect.dev/tags/cogito/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/gbstudio/</loc>
+		<loc>https://alansuspect.dev/tags/gbstudio/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/internet/</loc>
+		<loc>https://alansuspect.dev/tags/eleventy/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/social-media/</loc>
+		<loc>https://alansuspect.dev/tags/obsidian/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/amiga/</loc>
+		<loc>https://alansuspect.dev/tags/internet/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/monkey-island/</loc>
+		<loc>https://alansuspect.dev/tags/social-media/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/live-acts/</loc>
+		<loc>https://alansuspect.dev/tags/amiga/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/ticketmaster/</loc>
+		<loc>https://alansuspect.dev/tags/monkey-island/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/ticketek/</loc>
+		<loc>https://alansuspect.dev/tags/live-acts/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/green-day/</loc>
+		<loc>https://alansuspect.dev/tags/ticketmaster/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/capitalism/</loc>
+		<loc>https://alansuspect.dev/tags/ticketek/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/eleventy/</loc>
+		<loc>https://alansuspect.dev/tags/green-day/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/obsidian/</loc>
+		<loc>https://alansuspect.dev/tags/capitalism/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/gaming/</loc>
+		<loc>https://alansuspect.dev/tags/cms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/retro/</loc>
+		<loc>https://alansuspect.dev/tags/ssg/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/steam/</loc>
+		<loc>https://alansuspect.dev/tags/git/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/batocera/</loc>
+		<loc>https://alansuspect.dev/tags/flatfilecms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/chimeraos/</loc>
+		<loc>https://alansuspect.dev/tags/markdown/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/cms/</loc>
+		<loc>https://alansuspect.dev/tags/gravcms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/ssg/</loc>
+		<loc>https://alansuspect.dev/tags/tinacms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/git/</loc>
+		<loc>https://alansuspect.dev/tags/picocms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/flatfilecms/</loc>
+		<loc>https://alansuspect.dev/tags/spinalcms/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/markdown/</loc>
+		<loc>https://alansuspect.dev/tags/gaming/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/gravcms/</loc>
+		<loc>https://alansuspect.dev/tags/retro/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/tinacms/</loc>
+		<loc>https://alansuspect.dev/tags/steam/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/picocms/</loc>
+		<loc>https://alansuspect.dev/tags/batocera/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/spinalcms/</loc>
+		<loc>https://alansuspect.dev/tags/chimeraos/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/web/</loc>
+		<loc>https://alansuspect.dev/tags/web/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/development/</loc>
+		<loc>https://alansuspect.dev/tags/development/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/javascript/</loc>
+		<loc>https://alansuspect.dev/tags/javascript/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/react/</loc>
+		<loc>https://alansuspect.dev/tags/react/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/webcomponents/</loc>
+		<loc>https://alansuspect.dev/tags/webcomponents/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 </urlset>

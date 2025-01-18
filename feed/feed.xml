@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:base="en">
 	<title>alansuspect.dev</title>
 	<subtitle>I&#39;m a web developer trying to write about it.</subtitle>
-	<link href="https://alansuspect.dev/alansuspect-dev/feed/feed.xml" rel="self"/>
-	<link href="https://alansuspect.dev/alansuspect-dev/"/>
+	<link href="https://alansuspect.dev/feed/feed.xml" rel="self"/>
+	<link href="https://alansuspect.dev/"/>
 	<updated>2025-01-18T00:00:00Z</updated>
 	<id>https://alansuspect.dev/</id>
 	<author>
@@ -13,9 +13,9 @@
 	
 	<entry>
 		<title>Looking for a CMS</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/looking-for-a-cms/"/>
+		<link href="https://alansuspect.dev/blog/looking-for-a-cms/"/>
 		<updated>2025-01-18T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/looking-for-a-cms/</id>
+		<id>https://alansuspect.dev/blog/looking-for-a-cms/</id>
 		<content type="html">&lt;p&gt;Is there a flat-file CMS I could point to my Eleventy dev folder that would act as a nice front end to manage the Markdown content?&lt;/p&gt;
 &lt;p&gt;I&#39;ve looked at a few (such as Grav, TinaCMS, Pico CMS, SpinalCMS) but they seem to do their own thing and manage files/site themselves, whereas I&#39;d want Eleventy to handle everything and just have a nice UI instead of dealing with files.&lt;/p&gt;
 &lt;p&gt;The idea being when you save a post/page (.md file) it would update the e.g. GitHub repo and trigger the build. Any ideas?&lt;/p&gt;
@@ -26,9 +26,9 @@
 	
 	<entry>
 		<title>Dynamic Pricing at gigs</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/dynamic-pricing-at-gigs/"/>
+		<link href="https://alansuspect.dev/blog/dynamic-pricing-at-gigs/"/>
 		<updated>2024-09-21T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/dynamic-pricing-at-gigs/</id>
+		<id>https://alansuspect.dev/blog/dynamic-pricing-at-gigs/</id>
 		<content type="html">&lt;p&gt;I was watching the news this morning and they were talking about Green Day and the new &#39;dynamic pricing&#39; for gig tickets being used, which basically means if more people are trying to book tickets the price will go up.&lt;/p&gt;
 &lt;p&gt;It&#39;s not just Green Day either, it&#39;s the ticket companies pushing the feature.&lt;/p&gt;
 &lt;p&gt;It&#39;s a horrific capitalism invention and all I can say is people should go check out local bands instead. This is just making nice things available only to the rich.&lt;/p&gt;
@@ -40,9 +40,9 @@
 	
 	<entry>
 		<title>Web component thoughts</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/web-component-thoughts/"/>
+		<link href="https://alansuspect.dev/blog/web-component-thoughts/"/>
 		<updated>2024-09-18T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/web-component-thoughts/</id>
+		<id>https://alansuspect.dev/blog/web-component-thoughts/</id>
 		<content type="html">&lt;p&gt;I keep coming back to reading about web components.&lt;/p&gt;
 &lt;p&gt;The opportunity to try them out hasn&#39;t come up yet but I still don&#39;t think I get it. Is it just another way of sneaking JavaScript into a site build? Do they work without JavaScript?&lt;/p&gt;
 &lt;p&gt;With all the Eleventy talk about moving to Font Awesome and their Web Awesome stuff I really want to learn it and like it, but I&#39;m coming at it from an HTML/CSS-only standpoint (static sites lend themselves to a lack of JS) and am trying to understand how it carefully adds to a build, instead of taking it over or relying on JS. Or maybe I&#39;m way off.&lt;/p&gt;
@@ -53,9 +53,9 @@
 	
 	<entry>
 		<title>Making games and game decisions</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/Making-games-and-game-decisions/"/>
+		<link href="https://alansuspect.dev/blog/Making-games-and-game-decisions/"/>
 		<updated>2024-09-08T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/Making-games-and-game-decisions/</id>
+		<id>https://alansuspect.dev/blog/Making-games-and-game-decisions/</id>
 		<content type="html">&lt;p&gt;I have had this idea for a computer game for a while now, it&#39;s not completely fleshed out but I have a rough storyline down and a few ideas for puzzles.&lt;/p&gt;
 &lt;p&gt;What I can&#39;t decide on is how to implement it. Issues of time aside, I&#39;m also not a skilled game developer so an easy learning curve would be preferable.&lt;/p&gt;
 &lt;p&gt;I like doing pixel art so that would be a nice path to go down, but I probably shouldn&#39;t commit to doing too much of it as I&#39;ll end up giving up before I get anywhere.&lt;/p&gt;
@@ -71,9 +71,9 @@
 	
 	<entry>
 		<title>Why with all the JavaScript?</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/why-with-all-the-js/"/>
+		<link href="https://alansuspect.dev/blog/why-with-all-the-js/"/>
 		<updated>2024-06-03T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/why-with-all-the-js/</id>
+		<id>https://alansuspect.dev/blog/why-with-all-the-js/</id>
 		<content type="html">&lt;p&gt;I&#39;m not great at JavaScript. Never have, never will, and I&#39;m ok with that. I understand enough and can follow many others&#39; leads to do what I want with it.&lt;/p&gt;
 &lt;p&gt;Or, even better, just not use it. I grew up with HTML, then added CSS along the way. That was always enough.&lt;/p&gt;
 &lt;p&gt;At one point I had this stomach-dropping feeling that I may need to learn React to keep doing my job. That meant learning React AND JavaScript. No thanks.&lt;/p&gt;
@@ -86,9 +86,9 @@
 	
 	<entry>
 		<title>Having a strum</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/Having-a-strum/"/>
+		<link href="https://alansuspect.dev/blog/Having-a-strum/"/>
 		<updated>2024-05-22T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/Having-a-strum/</id>
+		<id>https://alansuspect.dev/blog/Having-a-strum/</id>
 		<content type="html">&lt;p&gt;Something happened today.&lt;/p&gt;
 &lt;p&gt;I actually picked up a guitar and made up some new music. It wasn&#39;t much, just a few riffs but it&#39;s been so long. I&#39;m just constantly working and don&#39;t put time aside for my activities.&lt;/p&gt;
 &lt;p&gt;And it was on bass. I bought a Fender p-bass a long, long time ago and hardly ever play it. I&#39;m a guitarist by trade but it always seemed like a neat thing to have, especially if I want to record anything.&lt;/p&gt;
@@ -99,9 +99,9 @@
 	
 	<entry>
 		<title>Games for the living room</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/gaming/"/>
+		<link href="https://alansuspect.dev/blog/gaming/"/>
 		<updated>2024-05-07T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/gaming/</id>
+		<id>https://alansuspect.dev/blog/gaming/</id>
 		<content type="html">&lt;p&gt;We&#39;ve had an old (2021) Dell laptop lying around for a while and I thought turning it into a gaming machine for the living room might be fun.&lt;/p&gt;
 &lt;p&gt;Now when I say gaming, I&#39;m not really a gamer. I grew up playing point and click adventures (still the best game format in my opinion) and in the late 00&#39;s I had an XBox 360 where I played a lot of Red Dead Redemption. Oh, and I have a WiiU in a box somewhere but it has a UK plug and it seems dangerous to have it plugged in to an adapter all the time.&lt;/p&gt;
 &lt;p&gt;I like playing old games. I got my daughter a Miyoo game boy-style handheld for Christmas and under the guise of &amp;quot;testing&amp;quot; to make sure it would be good to go on the big day I also picked one up for myself.&lt;/p&gt;
@@ -116,9 +116,9 @@
 	
 	<entry>
 		<title>The old internet</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/IndieWeb/"/>
+		<link href="https://alansuspect.dev/blog/IndieWeb/"/>
 		<updated>2024-05-01T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/IndieWeb/</id>
+		<id>https://alansuspect.dev/blog/IndieWeb/</id>
 		<content type="html">&lt;p&gt;I just read &lt;a href=&quot;https://mxb.dev/blog/the-indieweb-for-everyone/&quot;&gt;this post&lt;/a&gt; by &lt;a href=&quot;https://front-end.social/@mxbck&quot;&gt;@mxbck@front-end.social&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;This is an older one but there are a lot of posts like this popping up and it&#39;s exactly how I feel about the internet now.&lt;/p&gt;
 &lt;p&gt;What worries me with saying&lt;/p&gt;
@@ -135,9 +135,9 @@ is how long will it be until people don&#39;t remember the early internet?&lt;/p
 	
 	<entry>
 		<title>Obsidian</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/Obsidian/"/>
+		<link href="https://alansuspect.dev/blog/Obsidian/"/>
 		<updated>2024-04-25T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/Obsidian/</id>
+		<id>https://alansuspect.dev/blog/Obsidian/</id>
 		<content type="html">&lt;p&gt;I started using &lt;a href=&quot;https://obsidian.md/&quot;&gt;Obsidian&lt;/a&gt; a few months ago, after first moving to Quillpad from Google Notes when I decided to de-Google. It is a pretty powerful editor and note taker but I hadn&#39;t really looked into what it could do until I saw a post on Mastodon about using it to edit posts in Eleventy. Neat!&lt;/p&gt;
 &lt;p&gt;This is basically a test post to see if I can use Obsidian as a CMS. Let&#39;s see if it works.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Update: it works!&lt;/strong&gt;&lt;/p&gt;
@@ -146,9 +146,9 @@ is how long will it be until people don&#39;t remember the early internet?&lt;/p
 	
 	<entry>
 		<title>Let&#39;s Go</title>
-		<link href="https://alansuspect.dev/alansuspect-dev/blog/first/"/>
+		<link href="https://alansuspect.dev/blog/first/"/>
 		<updated>2024-04-22T00:00:00Z</updated>
-		<id>https://alansuspect.dev/alansuspect-dev/blog/first/</id>
+		<id>https://alansuspect.dev/blog/first/</id>
 		<content type="html">&lt;p&gt;I&#39;ve made this site to post about dev stuff I&#39;m working on, and other fun things.&lt;/p&gt;
 &lt;p&gt;It&#39;s built using Eleventy which I&#39;ve been playing around with a lot recently, especially trying to hook up WordPress as a CMS.&lt;/p&gt;
 &lt;p&gt;So that&#39;s probably what I&#39;ll be talking about. Oh and customising a Miyoo Mini Plus V3 with cool ROMs.&lt;/p&gt;
