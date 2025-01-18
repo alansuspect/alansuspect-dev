@@ -1,0 +1,549 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>alansuspect.dev</title>
+		<meta name="description" content="I&#39;m a web developer trying to write about it.">
+<meta name="fediverse:creator" content="@alansuspect@aus.social">
+		<link rel="alternate" href="/alansuspect-dev/feed/feed.xml" type="application/atom+xml" title="alansuspect.dev">
+		<link rel="alternate" href="/alansuspect-dev/feed/feed.json" type="application/json" title="alansuspect.dev">
+
+<link href="mailto:mail@alansuspect.dev" rel="me">
+		<meta name="generator" content="Eleventy v2.0.1">
+		<style>.postlist { counter-reset: start-from 11 }
+* { box-sizing: border-box; }
+/* Defaults */
+
+:root {
+	--font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+	--letter-spacing: 0.005rem;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #444444;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #FEFAF6;
+	--text-color: #ffffff;
+	--text-color-link: #7ABA78;
+	--text-color-link-active: #4F6F52;
+	--text-color-link-visited: #7ABA78;
+	--background-color: #171919;
+	--syntax-tab-size: 2;
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+	letter-spacing: var(--letter-spacing);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 48em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.6;
+	margin-bottom: 1.6rem;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+	transition: 0.2s;
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+/* header {
+	border-bottom: 1px solid var(--color-gray-50);
+} */
+
+/* header:after {
+	content: "";
+	display: table;
+	clear: both;
+} */
+
+.links-nextprev {
+	list-style: none;
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header, footer {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 2em 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+	text-decoration: none;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	border-bottom: 1px solid var(--background-color);
+	text-decoration: none;
+	transition: 0.2s;
+}
+
+.nav-item a[href] {
+	text-decoration: none;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+	font-size: 0.8rem;	
+	border-bottom: 1px solid var(--background-color);	
+}
+
+.nav a[href][aria-current="page"] {
+	/* font-weight: 700; */
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
+
+/* Footer */
+
+header svg,
+footer svg {
+	fill: var(--text-color-link);
+	width: 24px;
+	transition: 0.2s;
+}
+
+footer svg:hover {
+	fill: var(--text-color-link-active);
+}
+
+
+/* Home Desc */
+
+.home-description {
+	margin-bottom: 2rem;
+	border-bottom: 1px solid var(--color-gray-20);
+	padding-bottom: 1.2rem;
+  }
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	/* padding-left: 1.5rem; */
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	/* counter-increment: start-from -1; */
+	margin-bottom: 3em;
+}
+.postlist-item:before {
+	display: none; /* hide */
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+
+.postlist-meta {
+	display: flex;
+	flex-flow: column-reverse;
+	margin-bottom: 1rem;
+  }
+
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	/* padding-left: .25em;
+	padding-right: .5em; */
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Direct Links / Markdown Headers */
+.header-anchor {
+	text-decoration: none;
+	font-style: normal;
+	font-size: 1em;
+	margin-left: .1em;
+}
+a[href].header-anchor,
+a[href].header-anchor:visited {
+	color: transparent;
+}
+a[href].header-anchor:focus,
+a[href].header-anchor:hover {
+	text-decoration: underline;
+}
+a[href].header-anchor:focus,
+:hover > a[href].header-anchor {
+	color: #aaa;
+}
+
+h2 + .header-anchor {
+	font-size: 1.5em;
+}
+
+
+blockquote {
+	border-left: 2px solid var(--text-color-link);
+	padding-left: 1.5rem;
+	margin-left: 1rem;
+	color: var(--color-gray-50);
+  }</style>
+
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/alansuspect-dev/" class="home-link">
+				<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512" width="24">
+					<path d="M370.7 96.1C346.1 39.5 289.7 0 224 0S101.9 39.5 77.3 96.1C60.9 97.5 48 111.2 48 128v64c0 16.8 12.9 30.5 29.3 31.9C101.9 280.5 158.3 320 224 320s122.1-39.5 146.7-96.1c16.4-1.4 29.3-15.1 29.3-31.9V128c0-16.8-12.9-30.5-29.3-31.9zM336 144v16c0 53-43 96-96 96H208c-53 0-96-43-96-96V144c0-26.5 21.5-48 48-48H288c26.5 0 48 21.5 48 48zM189.3 162.7l-6-21.2c-.9-3.3-3.9-5.5-7.3-5.5s-6.4 2.2-7.3 5.5l-6 21.2-21.2 6c-3.3 .9-5.5 3.9-5.5 7.3s2.2 6.4 5.5 7.3l21.2 6 6 21.2c.9 3.3 3.9 5.5 7.3 5.5s6.4-2.2 7.3-5.5l6-21.2 21.2-6c3.3-.9 5.5-3.9 5.5-7.3s-2.2-6.4-5.5-7.3l-21.2-6zM112.7 316.5C46.7 342.6 0 407 0 482.3C0 498.7 13.3 512 29.7 512H128V448c0-17.7 14.3-32 32-32H288c17.7 0 32 14.3 32 32v64l98.3 0c16.4 0 29.7-13.3 29.7-29.7c0-75.3-46.7-139.7-112.7-165.8C303.9 338.8 265.5 352 224 352s-79.9-13.2-111.3-35.5zM176 448c-8.8 0-16 7.2-16 16v48h32V464c0-8.8-7.2-16-16-16zm96 32a16 16 0 1 0 0-32 16 16 0 1 0 0 32z"></path>
+				</svg>			
+				alansuspect.dev
+			</a>
+			<nav>
+				<h2 class="visually-hidden">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/alansuspect-dev/">Home</a></li>
+					<li class="nav-item"><a href="/alansuspect-dev/blog/" aria-current="page">Blog</a></li>
+					<li class="nav-item"><a href="/alansuspect-dev/about/">About</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			
+<h1>Blog</h1>
+
+
+
+<ul reversed="" class="postlist">
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/looking-for-a-cms/" class="postlist-link">Looking for a CMS</a>
+			<time class="postlist-date" datetime="2025-01-18">18 January 2025</time>
+		</div>
+		<div class="postlist-content">
+			<p>Is there a flat-file CMS I could point to my Eleventy dev folder that would act as a nice front end to manage the Markdown content?</p>
+<p>I've looked at a few (such as Grav, TinaCMS, Pico CMS, SpinalCMS) but they seem to do their own thing and manage files/site themselves, whereas I'd want Eleventy to handle everything and just have a nice UI instead of dealing with files.</p>
+<p>The idea being when you save a post/page (.md file) it would update the e.g. GitHub repo and trigger the build. Any ideas?</p>
+<p>Bonus points for being open source and also an accommodating free plan, or at least decent upgrade levels that don't go from free to $500 pm for an additional seat.</p>
+<p><a href="https://mattrbld.com">Mattrbld</a> looks good but I'm not sure how mature/stable it is and so does <a href="https://pagescms.org/">PagesCMS</a> if it can do what I'm after. I guess it also depends on hosting and my options there too.</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/dynamic-pricing-at-gigs/" class="postlist-link">Dynamic Pricing at gigs</a>
+			<time class="postlist-date" datetime="2024-09-21">21 September 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I was watching the news this morning and they were talking about Green Day and the new 'dynamic pricing' for gig tickets being used, which basically means if more people are trying to book tickets the price will go up.</p>
+<p>It's not just Green Day either, it's the ticket companies pushing the feature.</p>
+<p>It's a horrific capitalism invention and all I can say is people should go check out local bands instead. This is just making nice things available only to the rich.</p>
+<p>My question is, why can't we make these ticket companies pay a tax that goes towards local music/art investment?</p>
+<p>This was done with Netflix; they have to commit to making a certain amount of Aussie content per year. If you're taking money from people to go see major foreign acts, some of that should be reinvested.</p>
+<p>I hate capitalism, it ruins nice things.</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/web-component-thoughts/" class="postlist-link">Web component thoughts</a>
+			<time class="postlist-date" datetime="2024-09-18">18 September 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I keep coming back to reading about web components.</p>
+<p>The opportunity to try them out hasn't come up yet but I still don't think I get it. Is it just another way of sneaking JavaScript into a site build? Do they work without JavaScript?</p>
+<p>With all the Eleventy talk about moving to Font Awesome and their Web Awesome stuff I really want to learn it and like it, but I'm coming at it from an HTML/CSS-only standpoint (static sites lend themselves to a lack of JS) and am trying to understand how it carefully adds to a build, instead of taking it over or relying on JS. Or maybe I'm way off.</p>
+<p>For several years now I've used &quot;builders&quot; for some clients, mostly on WordPress, which are a swamp of JavaScript and awful performance. So as I look to simpler project builds in the future I want to factor in nice solutions for things that aren't going to turn into a hassle down the line.</p>
+<p>The idea of browsers supporting it sounds fantastic though. Maybe I'll figure it out one day.</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/Making-games-and-game-decisions/" class="postlist-link">Making games and game decisions</a>
+			<time class="postlist-date" datetime="2024-09-08">08 September 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I have had this idea for a computer game for a while now, it's not completely fleshed out but I have a rough storyline down and a few ideas for puzzles.</p>
+<p>What I can't decide on is how to implement it. Issues of time aside, I'm also not a skilled game developer so an easy learning curve would be preferable.</p>
+<p>I like doing pixel art so that would be a nice path to go down, but I probably shouldn't commit to doing too much of it as I'll end up giving up before I get anywhere.</p>
+<p>My first thought is a point-and-click adventure game like LucasArts used to make. When I was a kid I played with GRAC on the Amiga and I can see similar programs exist now, such as Escoria and Popochiu add-ons to Godot.</p>
+<p>I even got sidetracked looking at Godot add-ons and found Cogito. For a brief moment considered a first person puzzler, but have no idea about 3D graphics.</p>
+<p>Going to the far end on the other side I thought about doing an interactive fiction piece, where the story and puzzles would be a lot easier to implement and I could incorporate some static pixel art along the way.</p>
+<p>Lastly I've been trying out some games on the iPad which are kind of a mix of interactive fiction and point and click, in fact they call themselves point and click games but I consider them more <em>first person</em> point and click, for clarity.</p>
+<p>I even found an add-on for Godot called EgoVenture which does this kind of thing. It would mean I can do static graphics (without all the pesky animating characters walking stuff) and keep things as simple or complex as I like. On top of that, I could implement some cool puzzles.</p>
+<p>Oh, and a bonus mention to GBStudio which looks awesome, but not sure it would suit my game style. Maybe for another project.</p>
+<p>Lots of coulds in there! How do other people figure out how to plan a project like this? Do you do a script/plan layout or just get started and figure it out as you go?</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/why-with-all-the-js/" class="postlist-link">Why with all the JavaScript?</a>
+			<time class="postlist-date" datetime="2024-06-03">03 June 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I'm not great at JavaScript. Never have, never will, and I'm ok with that. I understand enough and can follow many others' leads to do what I want with it.</p>
+<p>Or, even better, just not use it. I grew up with HTML, then added CSS along the way. That was always enough.</p>
+<p>At one point I had this stomach-dropping feeling that I may need to learn React to keep doing my job. That meant learning React AND JavaScript. No thanks.</p>
+<p>Now I see several articles, posts, and mentions a week about how over-reliance on JS is damaging user experience, how it is creating a pointless situation when things could be much simpler.</p>
+<p>And I'm glad. It wasn't the way things were going after all, just the way some people thought it should and we all got swept up along the way.</p>
+<p>Some of the tools I use in my day-to-day website building activities are very JS-heavy, and it is starting to show. Simple web builders are now bloated to the point they can't perform their basic functions without difficulties (and let's not get started on the shoe-horned AI obsession).</p>
+<p>Now I just need to convince my clients they don't need all the bells and whistles!</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/Having-a-strum/" class="postlist-link">Having a strum</a>
+			<time class="postlist-date" datetime="2024-05-22">22 May 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>Something happened today.</p>
+<p>I actually picked up a guitar and made up some new music. It wasn't much, just a few riffs but it's been so long. I'm just constantly working and don't put time aside for my activities.</p>
+<p>And it was on bass. I bought a Fender p-bass a long, long time ago and hardly ever play it. I'm a guitarist by trade but it always seemed like a neat thing to have, especially if I want to record anything.</p>
+<p>I also recorded it on my phone as I will very likely forget it, which is pretty cool. I remember when I was young I had a MiniDisc recorder to record demo tracks, and later audio software like Cubase. I used Cubase to record Suspect Package's <a href="https://sectionfiverecords.bandcamp.com/album/suspect-package">first (and only) album</a>.</p>
+<p>But it was nice to just feel free to play something today. Maybe I'll keep doing it. I should keep doing it.</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/gaming/" class="postlist-link">Games for the living room</a>
+			<time class="postlist-date" datetime="2024-05-07">07 May 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>We've had an old (2021) Dell laptop lying around for a while and I thought turning it into a gaming machine for the living room might be fun.</p>
+<p>Now when I say gaming, I'm not really a gamer. I grew up playing point and click adventures (still the best game format in my opinion) and in the late 00's I had an XBox 360 where I played a lot of Red Dead Redemption. Oh, and I have a WiiU in a box somewhere but it has a UK plug and it seems dangerous to have it plugged in to an adapter all the time.</p>
+<p>I like playing old games. I got my daughter a Miyoo game boy-style handheld for Christmas and under the guise of &quot;testing&quot; to make sure it would be good to go on the big day I also picked one up for myself.</p>
+<p>I've looked into a few options for this Dell laptop (Inspiron 5502 for those who are wondering, whatever that signifies), I'm not a big PC guy - I use a Mac as my daily driver - so removing Windows was a priority. I've played with Linux here and there over the years so that's always an option.</p>
+<p>I first tried Batocera, a convenient living room display-style screen mode for retro gaming but I wasn't able to install it off the USB stick to the drive in the laptop.</p>
+<p>So now I'm trying out ChimeraOS. It bases itself off Steam so I can access games I have on there, as well as retro emulated games.</p>
+<p>I've realised I don't actually have any games in Steam so the homepage is a little lackluster right now (mainly Half Life when it was on a free promo and classic YNAB), but that can be added to.</p>
+<p>I found my old WiiU Pro controller and it connected instantly which I was impressed with. The next step is to get Steam Link working on my iPad so I can play some new point and click games I've been interested in but they're only on PC.</p>
+<p>Now I need to find some time to actually play some games...</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/IndieWeb/" class="postlist-link">The old internet</a>
+			<time class="postlist-date" datetime="2024-05-01">01 May 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I just read <a href="https://mxb.dev/blog/the-indieweb-for-everyone/">this post</a> by <a href="https://front-end.social/@mxbck">@mxbck@front-end.social</a>.</p>
+<p>This is an older one but there are a lot of posts like this popping up and it's exactly how I feel about the internet now.</p>
+<p>What worries me with saying</p>
+<blockquote>
+<p>Maybe we need some of that early internet vibe back and be ok with smaller, closer communities.
+is how long will it be until people don't remember the early internet?</p>
+</blockquote>
+<p>I've been building for the web for 25 years (and that's not even the early early days), but a lot of people only know social media like Twitter and Facebook. Do people still tinker?</p>
+<p>I used to mess with my brother's Amiga 500, then it became mine and I messed with the settings, found weird programs I had no idea what they did, made crappy pixel art in Deluxe Paint, played Monkey Island and even had a crack at making my own point-and-click games with <a href="https://amiga.abime.net/games/view/grac-graphic-adventure-creator-version-2">GRAC</a>.</p>
+<p>Do people still do this? I dunno. You can't tinker with Tiktok, or an iPad. Everything is designed for users to use.</p>
+<p>Anyway, I don't know where I'm going with this so I'll wrap it up. Still, when will people forget the old internet? I hope they don't, I hope it sticks around and massive social media platforms disappear.</p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/Obsidian/" class="postlist-link">Obsidian</a>
+			<time class="postlist-date" datetime="2024-04-25">25 April 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I started using <a href="https://obsidian.md/">Obsidian</a> a few months ago, after first moving to Quillpad from Google Notes when I decided to de-Google. It is a pretty powerful editor and note taker but I hadn't really looked into what it could do until I saw a post on Mastodon about using it to edit posts in Eleventy. Neat!</p>
+<p>This is basically a test post to see if I can use Obsidian as a CMS. Let's see if it works.</p>
+<p><strong>Update: it works!</strong></p>
+
+		</div>
+	</li>
+
+	<li class="postlist-item">
+		<div class="postlist-meta">
+			<a href="/alansuspect-dev/blog/first/" class="postlist-link">Let&#39;s Go</a>
+			<time class="postlist-date" datetime="2024-04-22">22 April 2024</time>
+		</div>
+		<div class="postlist-content">
+			<p>I've made this site to post about dev stuff I'm working on, and other fun things.</p>
+<p>It's built using Eleventy which I've been playing around with a lot recently, especially trying to hook up WordPress as a CMS.</p>
+<p>So that's probably what I'll be talking about. Oh and customising a Miyoo Mini Plus V3 with cool ROMs.</p>
+
+		</div>
+	</li>
+
+</ul>
+
+
+
+		</main>
+
+		<footer>
+			<ul class="nav">
+				<li class="nav-item">
+					<a href="https://aus.social/@alansuspect" rel="me" target="_blank">
+						<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 448 512">
+							<path d="M433 179.1c0-97.2-63.7-125.7-63.7-125.7-62.5-28.7-228.6-28.4-290.5 0 0 0-63.7 28.5-63.7 125.7 0 115.7-6.6 259.4 105.6 289.1 40.5 10.7 75.3 13 103.3 11.4 50.8-2.8 79.3-18.1 79.3-18.1l-1.7-36.9s-36.3 11.4-77.1 10.1c-40.4-1.4-83-4.4-89.6-54a102.5 102.5 0 0 1 -.9-13.9c85.6 20.9 158.7 9.1 178.8 6.7 56.1-6.7 105-41.3 111.2-72.9 9.8-49.8 9-121.5 9-121.5zm-75.1 125.2h-46.6v-114.2c0-49.7-64-51.6-64 6.9v62.5h-46.3V197c0-58.5-64-56.6-64-6.9v114.2H90.2c0-122.1-5.2-147.9 18.4-175 25.9-28.9 79.8-30.8 103.8 6.1l11.6 19.5 11.6-19.5c24.1-37.1 78.1-34.8 103.8-6.1 23.7 27.3 18.4 53 18.4 175z"></path>
+						</svg>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a href="https://github.com/alansuspect" target="_blank">
+					<svg xmlns="https://www.w3.org/2000/svg" viewBox="0 0 496 512">
+						<path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path>
+					</svg>					
+				</a></li>
+			</ul>
+		</footer>
+
+		<!-- This page `/alansuspect-dev/blog/` was built on 2025-01-18T03:59:03.357Z -->
+	</body>
+</html>
