@@ -152,16 +152,6 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/eleventy/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/obsidian/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/live-acts/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
@@ -183,6 +173,41 @@
 	
 	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/capitalism/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/eleventy/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/obsidian/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/gaming/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/retro/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/steam/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/batocera/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/chimeraos/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
@@ -232,17 +257,12 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/development/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/web/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/webcomponents/</loc>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/development/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
@@ -257,27 +277,7 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/gaming/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/retro/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/steam/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/batocera/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/chimeraos/</loc>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/webcomponents/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 </urlset>
