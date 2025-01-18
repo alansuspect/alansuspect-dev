@@ -152,6 +152,16 @@
 	</url>
 	
 	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/eleventy/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/obsidian/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/live-acts/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
@@ -173,16 +183,6 @@
 	
 	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/capitalism/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/eleventy/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/obsidian/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
@@ -257,17 +257,12 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/development/</loc>
-		<lastmod>2025-01-18</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/web/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/alansuspect-dev/tags/webcomponents/</loc>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/development/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 	
@@ -278,6 +273,11 @@
 	
 	<url>
 		<loc>https://alansuspect.dev/alansuspect-dev/tags/react/</loc>
+		<lastmod>2025-01-18</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/alansuspect-dev/tags/webcomponents/</loc>
 		<lastmod>2025-01-18</lastmod>
 	</url>
 </urlset>
