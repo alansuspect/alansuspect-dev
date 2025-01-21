@@ -72,26 +72,6 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/tags/music/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/band/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/suspect-package/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/cubase/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://alansuspect.dev/tags/internet/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
@@ -112,37 +92,22 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/tags/eleventy/</loc>
+		<loc>https://alansuspect.dev/tags/music/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/tags/obsidian/</loc>
+		<loc>https://alansuspect.dev/tags/band/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/tags/live-acts/</loc>
+		<loc>https://alansuspect.dev/tags/suspect-package/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/tags/ticketmaster/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/ticketek/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/green-day/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/capitalism/</loc>
+		<loc>https://alansuspect.dev/tags/cubase/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 	
@@ -187,6 +152,41 @@
 	</url>
 	
 	<url>
+		<loc>https://alansuspect.dev/tags/eleventy/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/obsidian/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/live-acts/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/ticketmaster/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/ticketek/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/green-day/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/capitalism/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://alansuspect.dev/tags/gaming/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
@@ -208,31 +208,6 @@
 	
 	<url>
 		<loc>https://alansuspect.dev/tags/chimeraos/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/development/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/web/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/webcomponents/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/javascript/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/react/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 	
@@ -278,6 +253,31 @@
 	
 	<url>
 		<loc>https://alansuspect.dev/tags/spinalcms/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/development/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/web/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/webcomponents/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/javascript/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/react/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 </urlset>
