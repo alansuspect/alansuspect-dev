@@ -46,6 +46,8 @@ html {
 	overflow-y: scroll;
 color: light-dark(var(--text-color-light), var(--text-color));
 background-color: light-dark(var(--background-color-light), var(--background-color));
+background-color: var(--background-color-light);
+  color: var(--text-color-light);
 }
 html,
 body {
@@ -361,8 +363,9 @@ blockquote {
   transition: 0.3s;
 }
 
-.toggle-switch input:checked ~ .slider {
-  background-color: var(--light);
+html:has(.toggle-switch input:checked ~ .slider) {
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
 }
 
 .toggle-switch .slider::before {
@@ -373,14 +376,14 @@ blockquote {
   width: 75px;
   height: 75px;
   border-radius: 50%;
-  box-shadow: inset 28px -4px 0px 0px var(--light);
-  background-color: var(--dark);
+  box-shadow: inset 28px -4px 0px 0px var(--text-color-light);
+  background-color: var(--background-color);
   transition: 0.3s;
 }
 
 .toggle-switch input:checked ~ .slider::before {
   transform: translateX(95px);
-  background-color: var(--dark);
+  background-color: var(--background-color);
   box-shadow: none;
 }</style>
 
@@ -478,6 +481,6 @@ blockquote {
 			</ul>
 		</footer>
 
-		<!-- This page `/tags/music/` was built on 2025-01-21T10:37:48.365Z -->
+		<!-- This page `/tags/music/` was built on 2025-01-21T10:42:15.984Z -->
 	</body>
 </html>

@@ -92,6 +92,26 @@
 	</url>
 	
 	<url>
+		<loc>https://alansuspect.dev/tags/music/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/band/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/suspect-package/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/cubase/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://alansuspect.dev/tags/gamedev/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
@@ -128,26 +148,6 @@
 	
 	<url>
 		<loc>https://alansuspect.dev/tags/gbstudio/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/music/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/band/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/suspect-package/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/cubase/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 	
@@ -212,26 +212,6 @@
 	</url>
 	
 	<url>
-		<loc>https://alansuspect.dev/tags/development/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/web/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/webcomponents/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://alansuspect.dev/tags/javascript/</loc>
-		<lastmod>2025-01-21</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://alansuspect.dev/tags/cms/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
@@ -277,7 +257,27 @@
 	</url>
 	
 	<url>
+		<loc>https://alansuspect.dev/tags/web/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/development/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/javascript/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://alansuspect.dev/tags/react/</loc>
+		<lastmod>2025-01-21</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://alansuspect.dev/tags/webcomponents/</loc>
 		<lastmod>2025-01-21</lastmod>
 	</url>
 </urlset>
