@@ -23,6 +23,7 @@
 
 /* Theme colors */
 :root {
+color-scheme: light dark;
 	--color-gray-20: #444444;
 	--color-gray-50: #C0C0C0;
 	--color-gray-90: #FEFAF6;
@@ -30,7 +31,9 @@
 	--text-color-link: #7ABA78;
 	--text-color-link-active: #4F6F52;
 	--text-color-link-visited: #7ABA78;
+ --text-color-light: #171919;
 	--background-color: #171919;
+ --background-color-light: #ffffff;
 	--syntax-tab-size: 2;
 }
 
@@ -39,7 +42,11 @@
 * {
 	box-sizing: border-box;
 }
-
+html {
+	overflow-y: scroll;
+color: light-dark(var(--text-color-light), var(--text-color));
+background-color: light-dark(var(--background-color-light), var(--background-color));
+}
 html,
 body {
 	padding: 0;
@@ -49,9 +56,7 @@ body {
 	background-color: var(--background-color);
 	letter-spacing: var(--letter-spacing);
 }
-html {
-	overflow-y: scroll;
-}
+
 body {
 	max-width: 48em;
 }
@@ -395,6 +400,6 @@ blockquote {
 			</ul>
 		</footer>
 
-		<!-- This page `/tags/obsidian/` was built on 2025-01-18T05:21:38.612Z -->
+		<!-- This page `/tags/obsidian/` was built on 2025-01-21T09:45:38.679Z -->
 	</body>
 </html>
