@@ -10,18 +10,15 @@ content:
     view:
       fields: [ title, description, date, tags ]
     fields:
-      - name: date
-        label: Date
-        type: date
       - name: title
         label: Title
         type: string
       - name: description
         label: Description
         type: string
-      - name: body
-        label: Body
-        type: rich-text
+      - name: date
+        label: Date
+        type: date        
       - name: tags
         label: Tags
         type: string
@@ -30,6 +27,9 @@ content:
           - name: tag
             label: Tag
             type: string   
+      - name: body
+        label: Body
+        type: rich-text            
   - name: home
     label: Homepage
     path: _data/home.js
