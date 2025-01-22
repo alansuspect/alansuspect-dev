@@ -1,6 +1,6 @@
 ---
-date: 2025-01-23
 title: I picked a CMS
+date: 2025-01-23
 tags:
   - eleventy
   - pagescms
@@ -23,7 +23,7 @@ My blog is based off the eleventy-base-blog-v8 so is a little out of date and ho
 
 ```
 module.exports = {
-	description: "I'm a web developer based in Australia. I build with Wordpress, Shopify and now also Eleventy, sometimes mixing them all together.",
+    description: "I'm a web developer based in Australia. I build with Wordpress, Shopify and now also Eleventy, sometimes mixing them all together.",
 }
 ```
 
@@ -31,7 +31,7 @@ But in the config file it only likes JSON for this format, so 'description' does
 
 This also goes for my About page and site meta as well; it's not an issue as I'm not planning on changing these immediately, but worth noting for future reference.
 
-Another issue I ran into (but again was resolved pretty quickly) was getting my post tags working. I like the way these work in Eleventy, generating a post list for each tag and wanted to be able to edit these easily in the CMS too. After searching the GitHub issues page I came across the answer, which it turned out was also in their docs all along. Here's the important part of my config file covering the posts:  
+Another issue I ran into (but again was resolved pretty quickly) was getting my post tags working. I like the way these work in Eleventy, generating a post list for each tag and wanted to be able to edit these easily in the CMS too. After searching the GitHub issues page I came across the answer, which it turned out was also in their docs all along. Here's the important part of my config file covering the posts:
 
 ```
 content:
@@ -43,18 +43,15 @@ content:
     view:
       fields: [ title, description, date, tags ]
     fields:
-      - name: date
-        label: Date
-        type: date
       - name: title
         label: Title
         type: string
       - name: description
         label: Description
         type: string
-      - name: body
-        label: Body
-        type: rich-text
+      - name: date
+        label: Date
+        type: date        
       - name: tags
         label: Tags
         type: string
@@ -63,6 +60,9 @@ content:
           - name: tag
             label: Tag
             type: string   
+      - name: body
+        label: Body
+        type: rich-text         
 ```
 
 A few things I did here which make life easier:
