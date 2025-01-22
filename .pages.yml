@@ -31,7 +31,7 @@ content:
             type: string
             list: true
             fields:
-              - name: name
+              - name: tag
                 label: Tag
                 type: string               
   - name: home
