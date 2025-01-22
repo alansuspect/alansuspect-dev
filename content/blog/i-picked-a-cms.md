@@ -1,7 +1,11 @@
 ---
 title: I picked a CMS
-description: I picked a CMS
 date: 2025-01-23
+tags:
+  - eleventy
+  - pagescms
+  - github
+  - cms
 ---
 I had a spare moment yesterday \[sorry, a _what_?\] so I jumped in with the most straight-forward looking option to try out - [PagesCMS.](https://pagescms.org)
 
@@ -70,7 +74,7 @@ A few things I did here which make life easier:
 
 This then produces the following result:
 
-![](/media/pagescms-tags.png)
+![](/media/Screenshot%202025-01-23%20at%209.48.58%E2%80%AFAM.png)
 
 So I can keep adding tags (in the config you can have min/max settings to limit these options as well), the only downside is I can't see tags I've already added to reuse but I tend to write them off the cuff anyway.
 
