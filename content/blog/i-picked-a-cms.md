@@ -1,5 +1,6 @@
 ---
 title: I picked a CMS
+description: I picked a CMS
 date: 2025-01-23
 tags:
   - eleventy
