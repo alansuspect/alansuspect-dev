@@ -33,27 +33,7 @@ content:
             fields:
               - name: name
                 label: Tag
-                type: string        
-  - name: tags
-    label: Tags
-    type: collection
-    path: 'content/blog'
-    view:
-      fields: [ title, published, date, frontmatter ]
-    fields:
-      - name: published
-        label: Published
-        type: boolean
-        default: true
-      - name: date
-        label: Date
-        type: date
-      - name: title
-        label: Title
-        type: string
-      - name: body
-        label: Body
-        type: rich-text        
+                type: string               
   - name: home
     label: Homepage
     path: _data/home.js
