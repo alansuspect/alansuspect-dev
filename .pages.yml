@@ -7,12 +7,8 @@ content:
     type: collection
     path: 'content/blog'
     view:
-      fields: [ title, published, date, frontmatter ]
+      fields: [ title, date, frontmatter ]
     fields:
-      - name: published
-        label: Published
-        type: boolean
-        default: true
       - name: date
         label: Date
         type: date
@@ -22,18 +18,14 @@ content:
       - name: body
         label: Body
         type: rich-text
-      - name: taxonomies
-        label: Taxonomies
-        type: object
+      - name: tags
+        label: Tags
+        type: string
+        list: true
         fields:
-          - name: tags
-            label: Tags
-            type: string
-            list: true
-            fields:
-              - name: tag
-                label: Tag
-                type: string               
+          - name: tag
+            label: Tag
+            type: string               
   - name: home
     label: Homepage
     path: _data/home.js
