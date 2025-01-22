@@ -21,9 +21,7 @@ content:
         type: string
       - name: tags
         label: Tags
-        type: code
-        options:
-          language: markdown
+        type: select
       - name: body
         label: Body
         type: rich-text
