@@ -8,13 +8,16 @@ content:
     path: 'content/blog'
     filename: "{fields.title}.md"
     view:
-      fields: [ title, date, frontmatter ]
+      fields: [ title, description, date, tags ]
     fields:
       - name: date
         label: Date
         type: date
       - name: title
         label: Title
+        type: string
+      - name: description
+        label: Description
         type: string
       - name: body
         label: Body
@@ -26,7 +29,7 @@ content:
         fields:
           - name: tag
             label: Tag
-            type: string               
+            type: string   
   - name: home
     label: Homepage
     path: _data/home.js
