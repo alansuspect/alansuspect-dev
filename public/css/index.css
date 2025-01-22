@@ -235,6 +235,7 @@ footer svg:hover {
 	display: flex;
 	flex-flow: column-reverse;
 	margin-bottom: 1rem;
+	width: 100%;
   }
 
 .postlist-date,
