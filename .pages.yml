@@ -7,7 +7,7 @@ content:
     type: collection
     path: 'content/blog'
     view:
-      fields: [ title, published, date ]
+      fields: [ title, published, date, frontmatter ]
     fields:
       - name: published
         label: Published
@@ -19,6 +19,11 @@ content:
       - name: title
         label: Title
         type: string
+      - name: tags
+        label: Tags
+        type: code
+        options:
+          language: markdown
       - name: body
         label: Body
         type: rich-text
