@@ -1,11 +1,8 @@
 ---
-layout: layouts/base.njk
-eleventyNavigation:
-  key: About
-  order: 3
+title: About
 ---
 # About
 
-Freelance web designer and developer: <a href="https://alanquirk.com" target="_blank">alanquirk.com</a>.
+Freelance web designer and developer: [alanquirk.com](https://alanquirk.com).
 
 More to come soon!
