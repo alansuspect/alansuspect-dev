@@ -70,7 +70,7 @@ A few things I did here which make life easier:
 
 This then produces the following result:
 
-![](/media/Screenshot%202025-01-23%20at%209.48.58%E2%80%AFAM.png)
+![](/media/pagescms-tags.png)
 
 So I can keep adding tags (in the config you can have min/max settings to limit these options as well), the only downside is I can't see tags I've already added to reuse but I tend to write them off the cuff anyway.
 
