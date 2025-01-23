@@ -13,7 +13,7 @@ layout: layouts/base.njk
 		<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a>{%- if not loop.last %}, {% endif %}</li>
 		{%- endfor %}
 	</ul>	
-	<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
+	<time class="postlist-date" datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 </div>
 <div class="post-container">
 	{{ content | safe }}
