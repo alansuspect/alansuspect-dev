@@ -1,5 +1,6 @@
 ---
 title: I picked a CMS
+description: I picked a CMS
 date: 2025-01-23
 ---
 I had a spare moment yesterday \[sorry, a _what_?\] so I jumped in with the most straight-forward looking option to try out - [PagesCMS.](https://pagescms.org)
@@ -26,7 +27,7 @@ But in the config file it only likes JSON for this format, so 'description' does
 
 This also goes for my About page and site meta as well; it's not an issue as I'm not planning on changing these immediately, but worth noting for future reference.
 
-Another issue I ran into (but again was resolved pretty quickly) was getting my post tags working. I like the way these work in Eleventy, generating a post list for each tag and wanted to be able to edit these easily in the CMS too. After searching the GitHub issues page I came across the answer, which it turned out was also in their docs all along. Here's the important part of my config file covering the posts:
+Another issue I ran into was getting my post tags working. I like the way these work in Eleventy, generating a post list for each tag and wanted to be able to edit these easily in the CMS too. After searching the GitHub issues page I came across the answer, which it turned out was also in their docs all along. Here's the important part of my config file covering the posts:
 
 ```
 content:
@@ -60,20 +61,22 @@ content:
         type: rich-text         
 ```
 
-A few things I did here which make life easier:
+In this config I added:
 
 *   **'filename'** - I added this in because I like to use the title as the post slug. In Obsidian I was doing this manually in the frontmatter so it's nice to automate it. You can also use variables like {year} to build a slug.
     
-*   **fields > name: tags** - this got my tags working by using the 'list' field type. It will then repeat the fields within for each entry, so here I just have a single text field for each tag.
+*   **fields > name: tags** - this got my tags in place by using the 'list' field type. It will then repeat the fields within for each entry, so here I just have a single text field for each tag.
     
 
-This then produces the following result:
+However, although this creates a nice interface for adding new tags and correctly adds the tags frontmatter to my post, the build fails each time and I cannot figure out why.
 
-![](/media/Screenshot%202025-01-23%20at%209.48.58%E2%80%AFAM.png)
+This is how the tags selection should look in the CMS, but unfortunately when I add any tags it breaks the build:![](https://alansuspect.dev/media/pagescms-tags.png)
 
-So I can keep adding tags (in the config you can have min/max settings to limit these options as well), the only downside is I can't see tags I've already added to reuse but I tend to write them off the cuff anyway.
+![](/media/pagescms-tags.png)
 
-This is my first post written using PagesCMS (and that above is my first embedded image in the entire blog so fingers crossed) so we'll see how it goes. So far, so good.
+If I can get this working it will mean I can keep adding tags, the only downside is I can't see tags I've already added to reuse but I tend to write them off the cuff anyway. Also in the config you can have min/max settings to limit these options as well.
+
+This is my first post written using PagesCMS (and that above is my first embedded image in the entire blog so fingers crossed) so we'll see how it goes, but I would like to get my tags working.
 
 I mentioned earlier about changing my blog theme and having a functional CMS has made me think about how I want to redo that as well, but I also need to figure out what I want from this blog too.
 
