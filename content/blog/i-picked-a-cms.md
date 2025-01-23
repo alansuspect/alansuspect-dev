@@ -1,11 +1,6 @@
 ---
 title: I picked a CMS
 date: 2025-01-23
-tags:
-  - eleventy
-  - pagescms
-  - github
-  - cms
 ---
 I had a spare moment yesterday \[sorry, a _what_?\] so I jumped in with the most straight-forward looking option to try out - [PagesCMS.](https://pagescms.org)
 
