@@ -70,7 +70,7 @@ In this config I added:
 
 However, although this creates a nice interface for adding new tags and correctly adds the tags frontmatter to my post, the build fails each time and I cannot figure out why.
 
-This is how the tags selection should look in the CMS, but unfortunately when I add any tags it breaks the build:![](https://alansuspect.dev/media/pagescms-tags.png)
+This is how the tags selection should look in the CMS, but unfortunately when I add any tags it breaks the build:
 
 ![](/media/pagescms-tags.png)
 
