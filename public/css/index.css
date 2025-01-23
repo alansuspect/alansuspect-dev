@@ -269,6 +269,9 @@ footer svg:hover {
 .postlist-content {
     max-width: 100%;
 }
+.postlist-content img {
+    max-width: 100%;
+}
 
 
 /* Tags */
