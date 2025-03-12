@@ -2,6 +2,8 @@
 title: Linux, anyone?
 description: Talking about installing Linux on an old laptop.
 date: 2025-02-08
+tags:
+  - linux
 ---
 We've had a Dell Inspiron laptop knocking around for a couple of years now and I've never known what to do with it.
 
