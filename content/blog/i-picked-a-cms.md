@@ -6,7 +6,7 @@ tags:
   - pagescms
   - github
   - eleventy
-  - cms
+  - CMS
 ---
 I had a spare moment yesterday \[sorry, a _what_?\] so I jumped in with the most straight-forward looking option to try out - [PagesCMS.](https://pagescms.org)
 
