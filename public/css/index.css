@@ -226,9 +226,9 @@ footer svg:hover {
 	flex-wrap: wrap;
 	align-items: baseline;
 	/* counter-increment: start-from -1; */
-	margin-bottom: 4rem;
-    border-bottom: 1px solid var(--color-gray-20);
-    padding-bottom: 4rem;
+	margin-bottom: 6rem;
+    border-bottom: 20px solid var(--text-color-link-active);
+    padding-bottom: 6rem;
 }
 .postlist-item:before {
 	display: none; /* hide */
