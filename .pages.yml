@@ -8,7 +8,7 @@ content:
     path: 'content/blog'
     filename: "{fields.title}.md"
     view:
-      fields: [ title, description, date, tags ]
+      fields: [ draft,title, description, date, tags ]
     fields:
       - name: draft
         label: Draft
