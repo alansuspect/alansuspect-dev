@@ -10,6 +10,10 @@ content:
     view:
       fields: [ title, description, date, tags ]
     fields:
+      - name: draft
+        label: Draft
+        type: boolean
+        default: false
       - name: date
         label: Date
         type: date        
