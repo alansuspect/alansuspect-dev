@@ -11,7 +11,7 @@ tags:
 ---
 ![](/media/Market.png)
 
-The last couple of \[bitsy\]([https://www.bitsy.org/](https://www.bitsy.org/)) games I've made have focused more on the design and aesthetics of the game rather than the functionality and gameplay.
+The last couple of [bitsy](https://www.bitsy.org/) games I've made have focused more on the design and aesthetics of the game rather than the functionality and gameplay.
 
 That was mostly due to the types of games/stories I had opted to tell; this time I had an idea that was more limited in scope but involved different mechanics.
 
@@ -39,4 +39,4 @@ I tried writing out the logic but it doesn't look right. Basically it checks if 
 
 ![](/media/If-else.png)
 
-And I think that's about it. I enjoyed playing with bitsy's mechanics more this time - for a simple game maker it actually allows for a lot of experimentation. \[Give it go yourself!\]([https://www.make.bitsy.org/](https://www.make.bitsy.org/))
+And I think that's about it. I enjoyed playing with bitsy's mechanics more this time - for a simple game maker it actually allows for a lot of experimentation. [Give it a go yourself!](https://www.make.bitsy.org/)
