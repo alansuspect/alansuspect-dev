@@ -6,7 +6,7 @@ description: A year in blogging
 tags:
   - blog
   - eleventy
-  - cms
+  - CMS
 ---
 Well I did it, I've officially had an active blog for a year now.
 
