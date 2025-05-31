@@ -5,7 +5,7 @@ title: The WordPress block editor
 description: The WordPress block editor
 tags:
   - wordpress
-  - cms
+  - CMS
   - editor
 ---
 Among many things, I build a lot of WordPress sites for my clients. For the most part I use Elementor, ACF, and other stuff, and tend to leave the actual block post editor alone. My clients are often responsible for general post/page content.
