@@ -16,7 +16,7 @@ Last week I had to do a bunch of editor work and wow - I didn't realise how unus
     
 *   the toolbar popup constantly gets in the way
     
-*   just a general lack of UX
+*   just a general lack of good UX practice
     
 *   so much white space for no reason
     
